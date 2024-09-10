@@ -27,7 +27,11 @@ body {
 }
 
 .wrapper.active {
-  height: 530px;
+  height: 550px;
+}
+
+.author{
+  color: #a17965;
 }
 
 header h1 {
@@ -40,6 +44,18 @@ header p {
   margin-top: 5px;
   color: #aaa;
   font-size: 16px;
+}
+
+.link {
+  color: #a17965;
+}
+
+.wrapper.active .link{
+  color: blue;
+}
+
+.wrapper.active .link:hover{
+  color: aqua;
 }
 
 .wrapper .form {
